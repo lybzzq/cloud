@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+         git:
+            url: https://github.com/lybzzq/cloud.git
+            username: lybzzq
+            password: qwertyui1......
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://api:node@127.0.0.1:10000/eureka/
